@@ -1,0 +1,40 @@
+.quize-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    text-align: center;
+    background-color: skyblue;
+    padding: 30px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .Q-head{
+    padding-bottom: 20px;
+  }
+  .Q-ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  .Q-li{
+    cursor: pointer;
+  }
+  .Q-question{
+    padding-bottom: 20px;
+  }
+  .re-btn{
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .re-btn:hover{
+    border: 2px solid red;
+  }
